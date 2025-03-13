@@ -1,0 +1,5 @@
+.env
+/known_faces
+__pycache__
+.conda
+facial_recognition.log

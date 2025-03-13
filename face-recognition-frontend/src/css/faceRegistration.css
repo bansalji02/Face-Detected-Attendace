@@ -1,0 +1,130 @@
+.face-registration {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .registration-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .webcam-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .webcam-video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border-radius: 8px;
+    background-color: #000;
+  }
+  
+  .registration-form {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .form-group input:focus {
+    border-color: #4361ee;
+    outline: none;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4361ee;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .register-button:hover:not(:disabled) {
+    background-color: #3a56d4;
+    transform: translateY(-2px);
+  }
+  
+  .register-button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    background-color: #fff5f5;
+    color: #e53e3e;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #e53e3e;
+  }
+  
+  .status-message {
+    background-color: #f0f9ff;
+    color: #3182ce;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #3182ce;
+  }
+  
+  .captured-angles {
+    margin-top: 1.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .captured-angles h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .captured-angles ul {
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+  
+  /* For desktop layout */
+  @media (min-width: 768px) {
+    .registration-container {
+      flex-direction: row;
+    }
+  }
