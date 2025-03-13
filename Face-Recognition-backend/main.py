@@ -16,7 +16,6 @@
 # import pymongo
 # from pymongo import MongoClient
 
-# mongoURI = "mongodb+srv://iAmBansal:Bansalji999@himanshulearn.lcenhzn.mongodb.net/?retryWrites=true&w=majority&appName=HimanshuLearn"
 
 
 # class FacialRecognitionSystem:

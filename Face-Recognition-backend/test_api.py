@@ -296,7 +296,7 @@ class FacialRecognitionAPI:
 # Main entry point for direct execution
 if __name__ == "__main__":
     # Use environment variables or default to localhost MongoDB
-    mongo_uri = os.environ.get("MONGO_URI", "mongodb+srv://iAmBansal:Bansalji999@himanshulearn.lcenhzn.mongodb.net/?retryWrites=true&w=majority&appName=HimanshuLearn")
+    mongo_uri = os.environ.get("MONGO_URI")
     
     # Create database connection
     try:

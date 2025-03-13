@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # MongoDB configuration
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://iAmBansal:Bansalji999@himanshulearn.lcenhzn.mongodb.net/?retryWrites=true&w=majority&appName=HimanshuLearn")
+MONGO_URI = os.environ.get("MONGO_URI")
 MONGO_DB = os.environ.get("MONGO_DB", "face_recognition")
 
 # Face recognition settings
